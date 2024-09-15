@@ -1,0 +1,117 @@
+*{
+      box-sizing: border-box;
+}
+
+body{
+      background-color: #e9e7e7;
+      font-family: sans-serif;
+      padding: 0;
+      margin: 0;
+}
+
+.nav{
+      background-color: #3e3e6f;
+      color: #e9e9ff;
+      padding: 0.5rem 1rem;
+}
+
+h1{
+      margin-top: 0;
+      margin-bottom: 0;
+}
+
+h2{
+      margin-top: 0;
+      margin-bottom: 1rem;
+      color: #3e3e6f;
+}
+
+.wrapper{
+      padding: 1rem 1rem 3rem 1rem;
+      background-color: #e9e7e7;
+}
+
+.card{
+      background-color: white;
+      border-radius: 1rem;
+      box-shadow: 0 2px 0.5rem 0.1rem rgba(0, 0, 0, 0.1);
+      max-width: 1000px;
+      margin: 0 auto;
+      margin-top: 10px;
+      overflow: hidden;
+}
+
+.card-heading{
+      padding: 1rem 1.5rem;
+      background-color: #3e3e6f;
+}
+
+.card-heading h3{
+      margin: 0;
+      color: white;
+}
+
+.card-body{
+      padding: 1.5rem;
+}
+
+.drop-list{
+      display: flex;
+      align-items: flex-end;
+      gap: 3rem;
+}
+
+.drop-list .from, .drop-list .to {
+      flex-grow: 1;
+}
+
+.exchange-rate-container{
+      margin-top: 1.5rem;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 0.5rem;
+}
+
+#swap-currency-button{
+      background: unset;
+      border: unset;
+      cursor: pointer;
+      font-size: 1.1rem;
+      padding: 0.75rem;
+}
+
+.currency-input{
+      border: unset;
+      padding: 0.75rem;
+      font-size: larger;
+}
+
+.currency-select-menu{
+      border: none;
+}
+
+.fake-input-wrapper{
+      border-radius: 0.5rem;
+      border: 1px solid rgb(160, 160, 160);
+      overflow: hidden;
+      display: flex;
+}
+
+.fake-input-wrapper input{
+      flex-grow: 1;
+}
+
+.subheading-container{
+      max-width: 750px;
+      margin: 0 auto;
+      margin-top: 20px;
+      padding: 3rem 0;
+}
+
+.nav-heading-container{
+      max-width: 750px;
+      margin: 0 auto;
+      text-align: center;
+}
+
