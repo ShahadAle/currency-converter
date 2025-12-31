@@ -2,7 +2,7 @@
 
 A website to see the Currency Exchange Rate of countries of your choosing.
 
-[ExchangeRate-API](https://www.exchangerate-api.com/) is used get the current exchange rate.
+[ExchangeRate-API](https://www.exchangerate-api.com/) is used to get the current exchange rate.
 
 # Installation
 
